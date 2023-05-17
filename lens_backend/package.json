@@ -1,0 +1,33 @@
+{
+  "name": "ip_cameras",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "devStart": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "@ffmpeg/core": "^0.11.0",
+    "@ffmpeg/ffmpeg": "^0.11.6",
+    "cookie-parser": "^1.4.6",
+    "express": "^4.18.2",
+    "ffmpeg": "^0.0.4",
+    "fluent-ffmpeg": "^2.1.2",
+    "http": "^0.0.1-security",
+    "morgan": "^1.10.0",
+    "node-media-server": "^2.5.0",
+    "node-netstat": "^1.8.0",
+    "node-onvif": "^0.1.7",
+    "node-rtsp-stream": "^0.0.9",
+    "onvif": "^0.6.8",
+    "rtsp-stream": "^1.0.0",
+    "server": "^1.0.38",
+    "socket.io": "^4.6.1",
+    "socket.io-client": "^4.6.1",
+    "stream": "^0.0.2",
+    "ws": "^8.13.0"
+  }
+}
